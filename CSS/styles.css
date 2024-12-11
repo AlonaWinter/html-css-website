@@ -120,7 +120,7 @@ section p {
 footer {
     background-color: #007bff;
     color: white;
-    padding: 20px 0;
+    padding: 10px 0;
     text-align: center;
 }
 
@@ -129,5 +129,15 @@ footer p {
 }
 
 .img-container img {
-    width:80vw;
+    width:50vw;
+}
+
+.about-img {
+    width:50vw;
+    margin-left: 20px;
+}
+
+.content p {
+    text-indent: 20px;
+    text-align: justify;
 }
