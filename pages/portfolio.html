@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kate Peterson - Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../CSS/styles.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="index.html">Kate Peterson</a>
+        <a class="navbar-brand" href="../index.html">Kate Peterson</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -34,12 +34,26 @@
         </div>
     </nav>
 
-    <section id="portfolio">
+    <section id="portfolio" >
         <h2>Portfolio</h2>
-        <div class="text-left"><img src="translation1.jpg" alt="Translation Example 1" style="width:200px;"></div>
-        <div class="text-center"><img src="translation2.jpg" alt="Translation Example 2" style="width:200px;"></div>
-        <div class="text-right"><img src="translation3.jpg" alt="Translation Example 3" style="width:200px;"></div>
-        <a href="https://example-portfolio.com"><img src="translation4.jpg" alt="Translation Example 4" style="width:200px;"></a>
+        <!-- Row with three images -->
+        <div class="row">
+            <div class="col-md-4">
+                <img src="../images/translation-1.jpg" alt="Translation Example 1" class="img-fluid rounded">
+            </div>
+            <div class="col-md-4">
+                <img src="../images/translation-2.jpg" alt="Translation Example 2" class="img-fluid rounded">
+            </div>
+            <div class="col-md-4">
+                <img src="../images/translation-3.jpg" alt="Translation Example 3" class="img-fluid rounded">
+            </div>
+        </div>
+        <!-- Row with clickable image -->
+        <div class="row mt-4">
+            <div class="col-12 text-center">
+                <img src="../images/translation-4.jpg" alt="Translation Example 4" class="img-fluid rounded">
+            </div>
+        </div>
     </section>
 
     <footer class="text-center">
@@ -51,3 +65,4 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
+

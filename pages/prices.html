@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kate Peterson - Prices</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../CSS/styles.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="index.html">Kate Peterson</a>
+        <a class="navbar-brand" href="../index.html">Kate Peterson</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -34,19 +34,72 @@
         </div>
     </nav>
 
-    <section id="prices" class="my-5">
+    <section id="prices" >
         <div class="container">
             <h2 class="text-center">Prices</h2>
-            <ul class="list-group list-group-flush">
-                <li class="list-group-item">General Translation: $0.10 per word</li>
-                <li class="list-group-item">Technical Translation: $0.15 per word</li>
-                <li class="list-group-item">Certified Translation: $0.20 per word</li>
-            </ul>
+            <div class="table-responsive">
+                <table class="table table-bordered table-custom">
+                    <thead>
+                        <tr>
+                            <th scope="col">Service</th>
+                            <th scope="col">Description</th>
+                            <th scope="col">Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>General Translation</td>
+                            <td>Translation of general documents, emails, and correspondence.</td>
+                            <td>$0.10 per word</td>
+                        </tr>
+                        <tr>
+                            <td>Technical Translation</td>
+                            <td>Translation of technical manuals, instructions, and specifications.</td>
+                            <td>$0.15 per word</td>
+                        </tr>
+                        <tr>
+                            <td>Certified Translation</td>
+                            <td>Certified translations for legal documents, birth certificates, etc.</td>
+                            <td>$0.20 per word</td>
+                        </tr>
+                        <tr>
+                            <td>Proofreading</td>
+                            <td>Review and correction of translated documents.</td>
+                            <td>$0.05 per word</td>
+                        </tr>
+                        <tr>
+                            <td>Express Service</td>
+                            <td>Priority translation services with faster turnaround times.</td>
+                            <td>+50% of the standard rate</td>
+                        </tr>
+                        <tr>
+                            <td>Localization Services</td>
+                            <td>Adapting content to suit the cultural and linguistic context of the target audience.</td>
+                            <td>$0.18 per word</td>
+                        </tr>
+                        <tr>
+                            <td>Subtitling</td>
+                            <td>Translation and synchronization of subtitles for videos and films.</td>
+                            <td>$0.12 per word</td>
+                        </tr>
+                        <tr>
+                            <td>Website Translation</td>
+                            <td>Translating and localizing website content for international audiences.</td>
+                            <td>$0.16 per word</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
     </section>
 
     <footer class="text-center py-4">
         <p>&copy; 2024 Kate Peterson</p>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
+
